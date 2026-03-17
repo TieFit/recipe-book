@@ -5,6 +5,10 @@
 }
 
 body {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(30, 10%, 34%);
+    
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,12 +26,12 @@ header {
     margin: 30px 30px;
 }
 
-h1 {
-    margin: 0 0 10px 0;
-}
+header h1 {
+    color: hsl(24, 5%, 18%);
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
 
-header p {
-    padding-left: 20px;
+    margin: 0 0 10px 0;
 }
 
 /*********************** PREPARATION SECTION STARTS **********************/
@@ -40,11 +44,18 @@ header p {
 }
 
 .preparation h3 {
+    color: hsl(332, 51%, 32%);
+
     margin-left: -20px;
+}
+
+.preparation ul li::marker {
+    color: hsl(332, 51%, 32%);
 }
 
 .preparation li {
     margin: 10px 0;
+    padding-left: 15px;
 }
 
 /********************** INGREDIENTS SECTION STARTS ***********************/
@@ -54,38 +65,62 @@ header p {
 }
 
 .ingredients h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+
     margin-left: -20px;
+}
+
+.ingredients ul li::marker {
+    color: hsl(14, 45%, 36%);
 }
 
 .ingredients li {
     margin: 10px 0;
+    padding-left: 15px;
 }
 
 /********************** INSTRUCTIONS SECTION STARTS ***********************/
 .instructions {
-    border-top: 1px solid hsl(30, 10%, 34%);
-    border-bottom: 1px solid hsl(30, 10%, 34%);
+    border-top: 1px solid hsl(30, 18%, 87%);
+    border-bottom: 1px solid hsl(30, 18%, 87%);
 
     margin: 0px 30px;
     padding: 20px 30px;
 }
 
 .instructions h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+
     margin: 0 0 20px -20px;
+}
+
+.instructions ol li::marker {
+    color: hsl(14, 45%, 36%);
 }
 
 .instructions li {
     margin: 10px 0;
+    padding-left: 15px;
 }
 
 /********************** NUTRITION SECTION STARTS ***********************/
 .nutrition {
     margin: 0 30px;
-    padding: 20px 30px;
+    padding: 20px 0px;
+}
+
+.nutrition h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
 }
 
 .nutrition h2, p {
-    margin: 0 0 20px -20px;
+    margin: 0 0 20px 0px;
 }
 
 .row1 {
@@ -95,8 +130,8 @@ header p {
 }
 
 .row2 {
-    border-top: 1px solid hsl(30, 10%, 34%);
-    border-bottom: 1px solid hsl(30, 10%, 34%);
+    border-top: 1px solid hsl(30, 18%, 87%);
+    border-bottom: 1px solid hsl(30, 18%, 87%);
     
     display: flex;
     align-items: center;
@@ -104,7 +139,7 @@ header p {
 }
 
 .row3 {
-    border-bottom: 1px solid hsl(30, 10%, 34%);
+    border-bottom: 1px solid hsl(30, 18%, 87%);
 
     display: flex;
     align-items: center;
@@ -118,17 +153,18 @@ header p {
 }
 
 .nutrition-label {
-    
     padding-left: 30px;
     flex: 1;
 }
 
 .nutrition-value {
+    color: hsl(14, 45%, 36%);
+
     text-align: left;
     width: 120px;
 }
 
 /******************** ATTRIBUTION SECTION STARTS *********************/
 .attribution {
-
+    margin-bottom: 40px;
 }
