@@ -26,6 +26,10 @@ h1 {
     margin: 0 0 10px 0;
 }
 
+header p {
+    padding-left: 20px;
+}
+
 /*********************** PREPARATION SECTION STARTS **********************/
 .preparation {
     background-color: hsl(330, 100%, 98%);
@@ -35,6 +39,10 @@ h1 {
     padding: 20px 40px;
 }
 
+.preparation h3 {
+    margin-left: -20px;
+}
+
 .preparation li {
     margin: 10px 0;
 }
@@ -42,6 +50,11 @@ h1 {
 /********************** INGREDIENTS SECTION STARTS ***********************/
 .ingredients {
     margin: 30px 30px 0 30px;
+    padding: 0 30px 20px 30px;
+}
+
+.ingredients h2 {
+    margin-left: -20px;
 }
 
 .ingredients li {
@@ -51,26 +64,68 @@ h1 {
 /********************** INSTRUCTIONS SECTION STARTS ***********************/
 .instructions {
     border-top: 1px solid hsl(30, 10%, 34%);
+    border-bottom: 1px solid hsl(30, 10%, 34%);
 
-    padding: 20px 0;
     margin: 0px 30px;
+    padding: 20px 30px;
+}
+
+.instructions h2 {
+    margin: 0 0 20px -20px;
+}
+
+.instructions li {
+    margin: 10px 0;
 }
 
 /********************** NUTRITION SECTION STARTS ***********************/
 .nutrition {
     margin: 0 30px;
+    padding: 20px 30px;
 }
 
-.row {
+.nutrition h2, p {
+    margin: 0 0 20px -20px;
+}
 
+.row1 {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;    
+}
+
+.row2 {
+    border-top: 1px solid hsl(30, 10%, 34%);
+    border-bottom: 1px solid hsl(30, 10%, 34%);
+    
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.row3 {
+    border-bottom: 1px solid hsl(30, 10%, 34%);
+
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.row4 {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
 }
 
 .nutrition-label {
-
+    
+    padding-left: 30px;
+    flex: 1;
 }
 
 .nutrition-value {
-
+    text-align: left;
+    width: 120px;
 }
 
 /******************** ATTRIBUTION SECTION STARTS *********************/
