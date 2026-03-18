@@ -158,6 +158,7 @@ header h1 {
 
 .nutrition-value {
     color: hsl(14, 45%, 36%);
+
     text-align: left;
     width: 7.5rem;
 }
@@ -169,5 +170,23 @@ header h1 {
 
 /******************** DESKTOP SECTION STARTS *********************/
 @media screen and (min-width: 992px) {
+    body {
+        background-color: hsl(30, 54%, 90%);
+    }
+    
+    .page {
+        max-width: 46rem;
+        margin: 4rem auto;
+        padding: 2.5rem;
+        background-color: white;
+        border-radius: 1.5rem;
+    }
 
+    img {
+        border-radius: 1rem;
+    }
+
+    .nutrition-value {
+        width: 16rem;
+    }
 }
